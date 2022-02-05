@@ -1,0 +1,64 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 20px auto;
+    border-radius: 25px;
+    max-width: 1440px;
+    padding: 100px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+header {
+  color:#1eff00;
+  text-align: center;
+}
+
+/* questa è la barra del menu */
+#limebar {
+  background-color: #1eff00;
+  padding: 10px;
+}
+
+/*lascia un po' di aria tra un elemento e l'altro */
+.disponibile {
+  margin-top: 2em;
+}
+
+/* mette il nome del monopattino accanto alla checkbox */
+h2 {
+  display: inline;   
+}
+
+/* simbolo della freccia verso destra */
+.direction:before {
+  content:"\21A6";
+}
+
+/* altezza uguale per tutte le barre colorate che mostrano la carica della batteria */
+.bar {
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* larghezza per ogni singola barra in base alla carica della batteria */
+.orange {
+  background-color: rgb(255, 186, 57);
+  width: 350px;
+}
+
+.green {
+  background-color: rgb(69, 201, 69);
+  width: 600px;
+}
+
+.red {
+  background-color: rgb(148, 53, 53);
+  width: 150px;
+}
